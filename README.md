@@ -1,6 +1,14 @@
 Yii 2 Advanced Project Template
 ===============================
 
+Pasos de instalacion:
+
+1) git clone https://github.com/sandinosaso/tallerphp2016
+2) .init (o init.bat) para inicializar el ambiente (se elige 0 = development) Si ya tienen
+archivos de configuracion locale (los -local.php) les pregunta si desean sobrescribir o no
+3) composer install
+
+
 Yii 2 Advanced Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
 developing complex Web applications with multiple tiers.
 
