@@ -13,7 +13,11 @@ return [
         'user' => [
             'class' => 'dektrium\user\Module',
             'admins' => ['sandinosaso'],
-            'enableRegistration' => true
+            'enableRegistration' => true,
+            'modelMap' => [
+                'User' => 'common\models\User',
+                'RegistrationForm' => 'common\models\RegistrationForm',
+            ]
         ],
     ]
 ];
