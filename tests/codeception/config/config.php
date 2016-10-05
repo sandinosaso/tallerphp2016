@@ -14,7 +14,7 @@ return [
     ],
     'components' => [
         'db' => [
-            'dsn' => 'mysql:host=localhost;dbname=tallerphp',
+            'dsn' => 'mysql:host=localhost;dbname=tallerphptest',
         ],
         'mailer' => [
             'useFileTransport' => true,
