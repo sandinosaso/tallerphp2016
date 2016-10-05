@@ -65,7 +65,7 @@ $fieldOptions2 = [
 
         <?= Html::submitButton(
             Yii::t('user', 'Sign in'),
-            ['class' => 'btn btn-primary btn-block', 'tabindex' => '3']
+            ['name' => 'login-button' , 'class' => 'btn btn-primary btn-block', 'tabindex' => '3']
         ) ?>
 
         <?php ActiveForm::end(); ?>

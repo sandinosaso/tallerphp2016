@@ -4,9 +4,25 @@ Yii 2 Advanced Project Template
 Pasos de instalacion:
 
 1) git clone https://github.com/sandinosaso/tallerphp2016
+
 2) .init (o init.bat) para inicializar el ambiente (se elige 0 = development) Si ya tienen
 archivos de configuracion locale (los -local.php) les pregunta si desean sobrescribir o no
+
+En el common/config/main-local.php configurar el acceso a la base de datos que hayan creado
+
 3) composer install
+
+4) Correr migration de la extension yii2-user:
+
+./yii migrate/up --migrationPath=@vendor/dektrium/yii2-user/migrations
+
+5) Correr migration para RBAC
+
+./yii migrate --migrationPath=@yii/rbac/migrations/
+
+6) Correr migrations propias de la Aplicacion (inicializacion de la base de datos)
+
+./yii migrate
 
 
 Yii 2 Advanced Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for

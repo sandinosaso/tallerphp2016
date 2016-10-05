@@ -11,7 +11,7 @@ use common\models\LoginForm;
  */
 class LoginPage extends BasePage
 {
-    public $route = 'site/login';
+    public $route = 'user/security/login';
 
     /**
      * @param string $username
@@ -21,8 +21,8 @@ class LoginPage extends BasePage
     {
         $loginForm = new LoginForm;
 
-        $this->actor->fillField('input[name="' . $loginForm->formName() . '[username]"]', $username);
-        $this->actor->fillField('input[name="' . $loginForm->formName() . '[password]"]', $password);
+        $this->actor->fillField('input[name="login-form[login]"]', $username);
+        $this->actor->fillField('input[name="login-form[password]"]', $password);
         $this->actor->click('login-button');
     }
 }

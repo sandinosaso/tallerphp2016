@@ -57,14 +57,14 @@ return [
                     '@dektrium/user/views' => '@app/views/user'
                  ],
              ],
-        ]
+        ],
         
-        // 'urlManager' => [
-        //     'enablePrettyUrl' => true,
-        //     'showScriptName' => false,
-        //     'rules' => [
-        //     ],
-        // ],
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'rules' => [
+            ],
+        ],
         
     ],
 
