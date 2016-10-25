@@ -12,7 +12,7 @@ return [
     'modules' => [
         'user' => [
             'class' => 'dektrium\user\Module',
-            'admins' => ['sandinosaso'],
+            'admins' => ['sandinosaso@gmail2.com'],
             'enableRegistration' => true,
             'modelMap' => [
                 'User' => 'common\models\User',
